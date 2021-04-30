@@ -17,6 +17,6 @@ SQLAlchemy==1.4.12
 typing-extensions==3.7.4.3
 Werkzeug==1.0.1
 zipp==3.4.1
-tensorflow==2.0.0-rc1
+tf-nightly
 gevent
 gunicorn
