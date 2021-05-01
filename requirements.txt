@@ -17,4 +17,4 @@ protobuf==3.15.8
 pyOpenSSL==20.0.1
 wincertstore==0.2
 gunicorn
-tensorflow
+tensorflow-cpu
