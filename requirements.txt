@@ -42,7 +42,6 @@ bleach==3.3.0
 cached-property==1.5.2
 cachetools==4.2.1
 certifi==2020.12.5
-grpc-google-iam-v1==0.12.3
 grpcio==1.32.0
 h5py==2.10.0
 httplib2==0.19.1
@@ -80,7 +79,6 @@ pycurl==7.43.0.2
 pydocstyle==6.0.0
 pyflakes==2.2.0
 Pygments==2.8.1
-PyGObject==3.30.4
 pylint==2.8.2
 pyls-mypy==0.1.8
 pymongo==3.11.3
