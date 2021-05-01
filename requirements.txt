@@ -6,7 +6,6 @@ typing_extensions==3.7.4.3
 docutils==0.17
 Cython==0.29.22
 numpy==1.19.5
-lxml==4.2.6
 gevent==21.1.2
 Flask==1.1.2
 brotli==1.0.9
