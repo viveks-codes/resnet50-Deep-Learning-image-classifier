@@ -18,19 +18,18 @@ from werkzeug.utils import secure_filename
 
 # You can also use pretrained model from Keras
 # Check https://keras.io/applications/
-#from keras.applications.resnet50 import ResNet50
-#model = ResNet50(weights='imagenet')
-#model.save('models/model_resnet.h5')
+from keras.applications.resnet50 import ResNet50
+model = ResNet50(weights='imagenet')
 
 print('Model loaded. Check http://127.0.0.1:5000/')
 # Define a flask app
 app = Flask(__name__)
 
 # Model saved with Keras model.save()
-MODEL_PATH = 'models/model_resnet.h5'
+#MODEL_PATH = 'models/model_resnet.h5'
 
 # Load your trained model
-model = load_model(MODEL_PATH)
+#model = load_model(MODEL_PATH)
 model.make_predict_function()          # Necessary
 # print('Model loaded. Start serving...')
 
