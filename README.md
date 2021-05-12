@@ -170,6 +170,13 @@ Now You are all set!⭐️
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/vivolscute/resnet50-Deep-Learning-image-classifier/issues). You can also take a look at the [contributing guide](https://github.com/vivolscute/resnet50-Deep-Learning-image-classifier/pulls).
 
+
+## resources
+[Deploying a Python Flask Web Application to App Engine Flexible](https://www.qwiklabs.com/focuses/3339?parent=catalog)
+
+[Deploy Machine Learning Models to Production: With Flask, Streamlit, Docker, and Kubernetes on Google Cloud Platform](https://www.amazon.in/Deploy-Machine-Learning-Models-Production/dp/1484265459)
+
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!
