@@ -45,11 +45,6 @@ cd resnet50-Deep-Learning-image-classifier
 ```
 
 # step 2:
-## install dependencies
-```sh
-pip install -r requirements.txt
-```
-# step 3:
 ## Authenticate API Requests
 
 Set an environment variable for [YOUR_PROJECT_ID], replacing [YOUR_PROJECT_ID] with your own project ID:
@@ -121,7 +116,11 @@ activate the environment
 ```
 source env/bin/activate
 ```
-
+# step 3:
+## install dependencies
+```sh
+pip install -r requirements.txt
+```
 ## Creating an App Engine App
 create an App Engine instance by using:
 ```
