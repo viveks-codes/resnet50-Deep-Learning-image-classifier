@@ -53,7 +53,6 @@ Set an environment variable for [YOUR_PROJECT_ID], replacing [YOUR_PROJECT_ID] w
 export PROJECT_ID=[YOUR_PROJECT_ID]
 ```
 > if you are using qwiklabs account run following
-
 (for qwiklabs)
 ```
 gcloud iam service-accounts create qwiklab \
@@ -66,7 +65,6 @@ gcloud iam service-accounts create resnet50 \
 
 ```
 > if you are using qwiklabs account run following
-
 (for qwiklabs)
 ```
 gcloud iam service-accounts create qwiklab \
@@ -80,7 +78,6 @@ gcloud projects add-iam-policy-binding ${PROJECT_ID} \
 --role roles/owner
 ```
 > if you are using qwiklabs account run following
-
 (for qwiklabs)
 ```
 gcloud projects add-iam-policy-binding ${PROJECT_ID} \
@@ -94,7 +91,6 @@ gcloud iam service-accounts keys create ~/key.json \
 --iam-account resnet50@${PROJECT_ID}.iam.gserviceaccount.com
 ```
 > if you are using qwiklabs account run following 
-
 (for qwiklabs)
 ```
 gcloud iam service-accounts keys create ~/key.json \
@@ -105,7 +101,7 @@ gcloud iam service-accounts keys create ~/key.json \
 export GOOGLE_APPLICATION_CREDENTIALS="/home/${USER}/key.json"
 ```
 
-## Run tests
+# Run tests
 
 ## create environment
 
