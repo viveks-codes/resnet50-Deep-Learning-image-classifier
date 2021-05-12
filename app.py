@@ -1,23 +1,23 @@
 #!/usr/bin/python3.7
 from __future__ import division, print_function
-# coding=utf-8
 import sys
 import os
 import glob
 import re
 import numpy as np
 
-# Keras
+# Keras imports
 from keras.applications.imagenet_utils import preprocess_input, decode_predictions
 from keras.models import load_model
 from keras.preprocessing import image
 
-# Flask utils
+# Flask imports
 from flask import Flask, redirect, url_for, request, render_template
 from werkzeug.utils import secure_filename
 
 # You can also use pretrained model from Keras
-# Check https://keras.io/applications/
+# Check this https://keras.io/applications/
+
 from keras.applications.resnet50 import ResNet50
 model = ResNet50(weights='imagenet')
 
@@ -26,10 +26,10 @@ print('Model loaded. Check http://127.0.0.1:5000/')
 app = Flask(__name__)
 
 # Model saved with Keras model.save()
-#MODEL_PATH = 'models/model_resnet.h5'
+MODEL_PATH = 'models/model_resnet.h5'
 
 # Load your trained model
-#model = load_model(MODEL_PATH)
+model = load_model(MODEL_PATH)
 model.make_predict_function()          # Necessary
 # print('Model loaded. Start serving...')
 
