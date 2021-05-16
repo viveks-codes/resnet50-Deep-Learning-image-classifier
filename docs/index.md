@@ -58,18 +58,21 @@ export PROJECT_ID=[YOUR_PROJECT_ID]
 gcloud iam service-accounts create qwiklab \
   --display-name "My Qwiklab Service Account"
 ```
+
 Create a Service Account to access the Google Cloud APIs when testing locally:
 ```
 gcloud iam service-accounts create resnet50 \
   --display-name "My GCP Account"
 
 ```
+
 > if you are using qwiklabs account run following
 (for qwiklabs)
 ```
 gcloud iam service-accounts create qwiklab \
   --display-name "My Qwiklab Service Account"
 ```
+
 Give your newly created Service Account appropriate permissions:
 
 ```
@@ -77,6 +80,7 @@ gcloud projects add-iam-policy-binding ${PROJECT_ID} \
 --member serviceAccount:resnet50@${PROJECT_ID}.iam.gserviceaccount.com \
 --role roles/owner
 ```
+
 > if you are using qwiklabs account run following
 (for qwiklabs)
 ```
@@ -90,6 +94,7 @@ After creating your Service Account, create a Service Account key:
 gcloud iam service-accounts keys create ~/key.json \
 --iam-account resnet50@${PROJECT_ID}.iam.gserviceaccount.com
 ```
+
 > if you are using qwiklabs account run following 
 (for qwiklabs)
 ```
@@ -108,20 +113,26 @@ export GOOGLE_APPLICATION_CREDENTIALS="/home/${USER}/key.json"
 ```python
 virtualenv -p python3 env
 ```
+
 activate the environment
+
 ```
 source env/bin/activate
 ```
 # step 3:
 ## install dependencies
+
 ```sh
 pip install -r requirements.txt
 ```
+
 ## Creating an App Engine App
 create an App Engine instance by using:
+
 ```
 gcloud app create
 ```
+
 ## Create a Storage BucketCreating a Storage Bucket
 
 ```
@@ -129,34 +140,42 @@ export CLOUD_STORAGE_BUCKET=${PROJECT_ID}
 ```
 
 ## create a bucket
+
  ```
  gsutil mb gs://${PROJECT_ID}
  ```
 
 ## Running the Application
 Execute the following command to start your application:
+
 ```
 python main.py
 ```
+
 Once the application starts, click on the Web Preview icon in the Cloud Shell toolbar and choose "Preview on port 8080."
 
 ![](https://cdn.qwiklabs.com/a6YnJv8GlGae4rnJIbjA27J8c7YApa%2B6noPFkkKxZjk%3D)
 
 # Deploying the App to App Engine
 ## Update your Cloud Build timeout:
+
 ```
 gcloud config set app/cloud_build_timeout 1000
 ```
+
 # Deploy your app on App Engine by using gcloud
+
 ```
 gcloud app deploy
 ```
-> If asked, Do you want to continue (Y/n), press Y and then Enter.
 
+> If asked, Do you want to continue (Y/n), press Y and then Enter.
 After the application is deployed, open the app in your web browser with the following URL:
+
 ```
 https://<PROJECT_ID>.appspot.com
 ``` 
+
 Now You are all set!⭐️ 
 ## Author
 
