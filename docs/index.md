@@ -192,6 +192,7 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 
 ## resources
+
 [Deploying a Python Flask Web Application to App Engine Flexible](https://www.qwiklabs.com/focuses/3339?parent=catalog)
 [Deploy Machine Learning Models to Production: With Flask, Streamlit, Docker, and Kubernetes on Google Cloud Platform](https://www.amazon.in/Deploy-Machine-Learning-Models-Production/dp/1484265459)
 
