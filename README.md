@@ -1,14 +1,14 @@
 <h1 align="center">Welcome to resnet50-Deep-Learning-image-classifier 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-2.O-blue.svg?cacheSeconds=2592000" />
-  <a href="https://raw.githubusercontent.com/vivolscute/resnet50-Deep-Learning-image-classifier/main/README.md" target="_blank">
+  <a href="https://raw.githubusercontent.com/viveks-codes/resnet50-Deep-Learning-image-classifier/main/README.md" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
 </p>
 
  ResNet-50 is a CNN(convolutional neural network) that is 50 layers deep. we can load a pretrained version of the network trained on more than a million images from the ImageNet database. The pretrained network can classify images into 1000 object categories, such as keyboard, mouse, pencil, birds and many animals.
 
-### 🏠 [Homepage](https://github.com/vivolscute/resnet50-Deep-Learning-image-classifier)
+### 🏠 [Homepage](https://github.com/viveks-codes/resnet50-Deep-Learning-image-classifier)
 
 ### ✨ [Demo](https://resnet50.pythonanywhere.com/)
 
@@ -36,7 +36,7 @@ In the Cloud Console, in the top right toolbar, click the Activate Cloud Shell b
 clone this repo via following command
 
 ```
-git clone https://github.com/vivolscute/resnet50-Deep-Learning-image-classifier.git
+git clone https://github.com/viveks-codes/resnet50-Deep-Learning-image-classifier.git
 ```
 Change directory into  <i>resnet50-Deep-Learning-image-classifier</i>
 
@@ -163,7 +163,7 @@ Now You are all set!⭐️
 👤 **vivek patel**
 
 * Website: http://viveks.codes/vivek-codes
-* Github: [@vivolscute](https://github.com/vivolscute)
+* Github: [@viveks-codes](https://github.com/viveks-codes)
 * LinkedIn: [@vivek-patel-0553731a5](https://linkedin.com/in/vivek-patel-0553731a5)
 
 ## 🤝 Contributing
