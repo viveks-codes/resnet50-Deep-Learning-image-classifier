@@ -32,7 +32,7 @@ In the Cloud Console, in the top right toolbar, click the Activate Cloud Shell b
 
 # step 1:
 
-## clone this repo
+## Clone this repo
 clone this repo via following command
 
 ```
@@ -103,7 +103,7 @@ export GOOGLE_APPLICATION_CREDENTIALS="/home/${USER}/key.json"
 
 # Run tests
 
-## create environment
+## Create environment
 
 ```python
 virtualenv -p python3 env
@@ -113,7 +113,7 @@ activate the environment
 source env/bin/activate
 ```
 # step 3:
-## install dependencies
+## Install dependencies
 ```sh
 pip install -r requirements.txt
 ```
